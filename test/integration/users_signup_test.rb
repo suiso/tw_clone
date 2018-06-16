@@ -31,7 +31,17 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
 			assert_template 'users/show'
 			assert is_logged_in?
 			assert_not flash.empty?
-
 		end
+
+		# テストユーザーがログイン中の場合にtrueを返す
+		def is_logged_in?
+			!session[:user_id].nil?
+		end
+
+		# テストユーザーとしてログインする
+		def log_in_as(user)
+			session[:user_id] = user.id
+		end
+
 
 end
