@@ -1,5 +1,5 @@
 current directory: /Users/hondayuuki/rails_apps/sample_app/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
-/Users/hondayuuki/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180603-2464-110a432.rb extconf.rb
+/Users/hondayuuki/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180701-9890-i47wk7.rb extconf.rb
 creating Makefile
 
 current directory: /Users/hondayuuki/rails_apps/sample_app/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
@@ -16,4 +16,4 @@ linking shared-object bcrypt_ext.bundle
 
 current directory: /Users/hondayuuki/rails_apps/sample_app/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20180603-2464-1f9x1ps
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20180701-9890-y45sdk

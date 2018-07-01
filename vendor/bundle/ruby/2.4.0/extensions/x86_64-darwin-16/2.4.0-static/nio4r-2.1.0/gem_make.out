@@ -1,5 +1,5 @@
 current directory: /Users/hondayuuki/rails_apps/sample_app/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/ext/nio4r
-/Users/hondayuuki/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180603-82447-hyy6o7.rb extconf.rb
+/Users/hondayuuki/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180701-9890-1alnvca.rb extconf.rb
 checking for unistd.h... yes
 checking for sys/select.h... yes
 checking for poll.h... yes
@@ -238,4 +238,4 @@ linking shared-object nio4r_ext.bundle
 
 current directory: /Users/hondayuuki/rails_apps/sample_app/vendor/bundle/ruby/2.4.0/gems/nio4r-2.1.0/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20180603-82447-1vrti1k
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20180701-9890-9odgag

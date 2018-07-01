@@ -1,8 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* universal */
-$gray-medium-light: #eaeaea;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -10,6 +8,7 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
+/* universal */
 
 body {
   padding-top: 60px;
@@ -108,6 +107,17 @@ footer ul li {
   margin-left: 15px;
 }
 
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+
 /* sidebar */
 
 aside {
@@ -145,18 +155,19 @@ aside {
   margin-top: 15px;
 }
 
+/* forms */
 
-/* miscellaneous */
-
-.debug_dump {
-  clear: both;
-  float: left;
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
   width: 100%;
-  margin-top: 45px;
+  margin-bottom: 15px;
   @include box_sizing;
 }
 
-/* forms */
+input {
+  height: auto !important;
+}
+
 #error_explanation {
   color: red;
   ul {
@@ -172,16 +183,6 @@ aside {
   }
 }
 
-input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
-  width: 100%;
-  margin-bottom: 15px;
-  @include box_sizing;
-}
-
-input {
-  height: auto !important;
-}
 
 .checkbox {
   margin-top: -10px;
@@ -195,4 +196,17 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
